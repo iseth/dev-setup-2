@@ -112,7 +112,10 @@ brew install gawk
 brew install restic
 
 brew install selecta
+
+brew tap shopify/shopify
 brew install shopify-cli
+
 brew install stripe/stripe-cli/stripe
 brew install superfly/tap/flyctl
 brew install the_silver_searcher
@@ -134,8 +137,10 @@ brew install glib
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed
 
-# databases
-#brew install mysql
+echo ""
+echo "#######################################################"
+echo "# INSTALLING DATABASE PACKAGES"
+echo "#######################################################"
 brew install postgresql
 brew install mysql
 brew install redis
@@ -161,7 +166,7 @@ brew install binwalk
 brew install cifer
 brew install dex2jar
 brew install dns2tcp
-brew install fcrackzip
+brew install fcrackzip # Zip password cracker
 brew install foremost
 brew install hashpump
 brew install hydra
@@ -171,7 +176,7 @@ brew install netpbm
 brew install nmap
 brew install pngcheck
 brew install socat
-brew install sqlmap
+brew install sqlmap # Penetration testing for SQL injection and database servers
 brew install tcpflow
 brew install tcpreplay
 brew install tcptrace
@@ -194,7 +199,7 @@ brew install mono
 brew install p7zip
 brew install pigz
 brew install puma/puma/puma-dev
-brew install pv
+brew install pv # Monitor data's progress through a pipe
 brew install rename
 brew install rhino
 brew install speedtest-cli

@@ -34,6 +34,9 @@ ln -s $PWD/mackup/.mackup.cfg ~/.mackup.cfg
 sh osx-config.sh
 
 # install brew casks
+sh brew-packages.sh
+
+# install brew casks
 sh brew-casks.sh
 
 # configure those installed casks (apps)

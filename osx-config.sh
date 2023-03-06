@@ -20,14 +20,42 @@ defaults write .GlobalPreferences com.apple.mouse.scaling 3
 defaults write NSGlobalDomain KeyRepeat -int 1
 defaults write NSGlobalDomain InitialKeyRepeat -int 15
 
+echo "Trackpad, mouse, keyboard, Bluetooth accessories, and input"
+
+###############################################################################
+# Dock, mission control stuff
+###############################################################################
+
+# "Hide recent apps in dock"
+defaults write com.apple.dock show-recents -bool false
+
 # Enable three finger dragging
 defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
+
+# Do not automatically rearrange spaces based on most recent use
+defaults write com.apple.dock mru-spaces -bool false
 
 # Enable App Exposé
 # Swipe down with three/four fingers
 defaults write com.apple.dock showAppExposeGestureEnabled -bool true
 
-echo "Trackpad, mouse, keyboard, Bluetooth accessories, and input"
+###############################################################################
+# Ambient light sensor
+###############################################################################
+
+# Display -> Automatically adjust brightness
+defaults write com.apple.iokit.AmbientLightSensor "Automatic Display Enabled" -int 0
+
+# Keyboard -> Adjust keyboard brightness in low light
+defaults write com.apple.iokit.AmbientLightSensor "Automatic Keyboard Enabled" -int 0
+# defaults write com.apple.iokit.AmbientLightSensor "Keyboard Dim Time" -int 300
+
+###############################################################################
+# Security
+###############################################################################
+
+# disable gatekeeper
+sudo spctl --master-disable
 
 ###############################################################################
 # Finder                                                                      #

@@ -25,10 +25,12 @@ brew install --cask android-studio
 brew install --cask android-platform-tools
 # brew install --cask --appdir="/Applications" arq
 brew install --cask atom
+brew install --cask background-music
 brew install --cask beekeeper-studio
 brew install --cask bisq
 brew install --cask brave-browser
 brew install --cask brewservicesmenubar
+brew install --cask carbon-copy-cloner
 brew install --cask cookie
 brew install --cask daisydisk
 brew install --cask dbngin
@@ -39,6 +41,7 @@ brew install --cask dropbox
 brew install --cask electrum
 brew install --cask electron-api-demos
 brew install --cask electron-fiddle
+brew install --cask eloston-chromium
 brew install --cask exodus
 brew install --cask firefox
 
@@ -79,6 +82,7 @@ brew install --cask rectangle
 brew install --cask raycast
 brew install --cask robo-3t
 brew install --cask rubymine
+brew install --cask session
 brew install --cask setapp
 brew install --cask screenflow
 brew install --cask shottr
@@ -92,6 +96,7 @@ brew install --cask sublime-text
 brew install --cask superduper
 brew install --cask surge
 brew install --cask tableplus
+brew install --cask tailscale
 brew install --cask teamviewer
 brew install --cask telegram
 brew install --cask textmate
@@ -115,6 +120,7 @@ brew install --cask viscosity
 brew install --cask visual-studio-code
 brew install --cask warp
 brew install --cask whatsapp
+brew install --cask wifispoof
 brew install --cask xquartz
 brew install --cask zoom
 
